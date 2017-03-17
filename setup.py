@@ -9,4 +9,7 @@ setup( name = 'mfpyutils',
 	zip_safe		= True,
 	include_package_data=True,
 	packages = find_packages(),
+	install_requires = [ 
+		"python-jsonrpc",
+		]
 	)
